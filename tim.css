@@ -1,0 +1,650 @@
+
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+	font-family: myFont;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+	z-index: -2;
+}
+
+@font-face
+{
+	font-family: myFont;
+	src: url(minisystem.ttf);
+}
+
+.container
+{
+	/*background: ;*/
+
+}
+
+
+
+.circle
+{
+	background: red;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	position: absolute;
+	background: linear-gradient(105deg, rgb(147, 148, 152), rgb(0, 0, 0));
+	z-index: -1;
+}
+
+.circle1
+{
+	background: #000;
+	width: 250px;
+	height: 250px;
+	margin: 25px 0px 0px 25px;
+	border-radius: 100%;
+
+}
+
+.led-container
+{
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 119px;
+	transform: rotate(180deg);
+}
+
+.led1
+{
+	width: 5px;
+	height: 5px;
+	margin: 5px;
+	border-radius: 100%;
+	color: #fff;
+	background: green;
+	box-shadow: 0px 0px 20px rgba(0, 255, 0,1.0);
+	transition: all 0.5s;
+}
+
+.led3
+{
+	width: 5px;
+	height: 5px;
+	margin: 5px;
+	border-radius: 100%;
+	color: #fff;
+	background: green;
+	box-shadow: 0px 0px 20px grey;
+	transition: all 0.5s;
+}
+
+.led2
+{
+	width: 5px;
+	height: 5px;
+	margin: 5px;
+	border-radius: 100%;
+	color: #fff;
+	background: green;
+	box-shadow: 0px 0px 20px rgba(0, 255, 0,1.0);
+	transition: all 0.5s;
+}
+
+.led-container1
+{
+	position: absolute;
+	margin-left: 130px;
+	transform-origin: 100%;
+	margin-top: 8px;
+	transform: rotate(5deg);
+}
+
+.led-container2
+{
+	position: absolute;
+	transform-origin: 100%;
+	margin-left: 140px;
+	margin-top: 9px;
+	transform: rotate(5deg);
+}
+
+.led-container3
+{
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 13px;
+	transform: rotate(10deg);
+}
+
+.led-container4
+{
+	position: absolute;
+	margin-top: 17px;
+	margin-left: 160px;
+	transform: rotate(14deg);
+}
+
+.led-container5
+{
+	position: absolute;
+	margin-top: 22px;
+	margin-left: 170px;
+	transform: rotate(15deg);
+}
+
+.led-container6
+{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 28px;
+	transform: rotate(19deg);
+}
+
+.led-container7
+{
+	position: absolute;
+	margin-left: 187px;
+	margin-top: 35px;
+	transform: rotate(22deg);
+}
+
+.led-container8
+{
+	position: absolute;
+	margin-top: 42px;
+	margin-left: 194px;
+	transform: rotate(26deg);
+}
+
+.led-container9
+{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 202px;
+	transform: rotate(37deg);
+}
+
+.led-container10
+{
+	position: absolute;
+	margin-top: 81px;
+	margin-left: 216px;
+	transform: rotate(65deg);
+}
+
+.led-container11
+{
+	position: absolute;
+	margin-top: 93px;
+	margin-left: 218px;
+	transform: rotate(78deg);
+}
+
+.led-container12
+{
+	position: absolute;
+	margin-top: 105px;
+	margin-left: 218px;
+	transform: rotate(80deg);
+}
+
+.led-container13
+{
+	position: absolute;
+	margin-top: 207px;
+	margin-left: 127px;
+}
+
+.led-container14
+{
+	position: absolute;
+	margin-top: 207px;
+	margin-left: 117px;
+	transform: rotate(5deg);
+
+}
+
+.led-container15
+{
+	position: absolute;
+	margin-top: 95px;
+	margin-left: 19px;
+	transform: rotate(90deg);
+}
+
+.led-container16
+{
+	position: absolute;
+	margin-top: 105px;
+	margin-left: 19px;
+	transform: rotate(90deg);
+}
+
+.led-container17
+{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 213px;
+	transform: rotate(55deg);
+}
+
+.led-container18
+{
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 209px;
+	transform: rotate(50deg);
+}
+
+.led-container19
+{
+	position: absolute;
+	margin-top: 117px;
+	margin-left: 217px;
+	transform: rotate(81deg);
+}
+
+.led-container20
+{
+	position: absolute;
+	margin-top: 129px;
+	margin-left: 216px;
+	transform: rotate(86deg);
+}
+
+.led-container21
+{
+	position: absolute;
+	margin-top: 139px;
+	margin-left: 214px;
+	transform: rotate(99deg);
+}
+
+.led-container22
+{
+	position: absolute;
+	margin-top: 193px;
+	margin-left: 167px;
+	transform: rotate(158deg);
+}
+
+.led-container23
+{
+	position: absolute;
+	margin-top: 197px;
+	margin-left: 158px;
+	transform: rotate(165deg);
+}
+
+.led-container24
+{
+	position: absolute;
+	margin-top: 204px;
+	margin-left: 138px;
+	transform: rotate(170deg);
+}
+
+.led-container25
+{
+	position: absolute;
+	margin-top: 201px;
+	margin-left: 148px;
+	transform: rotate(165deg);
+}
+
+.led-container26
+{
+	position: absolute;
+	margin-top: 187px;
+	margin-left: 176px;
+	transform: rotate(158deg);
+}
+
+.led-container27
+{
+	position: absolute;
+	margin-top: 179px;
+	margin-left: 186px;
+	transform: rotate(155deg);
+}
+
+.led-container28
+{
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 196px;
+	transform: rotate(145deg);
+}
+
+.led-container29
+{
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 204px;
+	transform: rotate(135deg);
+}
+
+.led-container30
+{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 209px;
+	transform: rotate(115deg);
+}
+
+/*bottom to left*/
+.led-container31
+{
+	position: absolute;
+	margin-top: 206px;
+	margin-left: 105px;
+	transform: rotate(10deg);
+}
+
+.led-container32
+{
+	position: absolute;
+	margin-top: 204px;
+	margin-left: 95px;
+	transform: rotate(15deg);
+}
+
+.led-container33
+{
+	position: absolute;
+	margin-top: 201px;
+	margin-left: 85px;
+	transform: rotate(20deg);
+}
+
+.led-container34
+{
+	position: absolute;
+	margin-top: 197px;
+	margin-left: 75px;
+	transform: rotate(25deg);
+}
+
+.led-container35
+{
+	position: absolute;
+	margin-top: 193px;
+	margin-left: 65px;
+	transform: rotate(30deg);
+}
+
+/*left to bottom*/
+
+.led-container36
+{
+	position: absolute;
+	margin-top: 115px;
+	margin-left: 20px;
+	transform: rotate(85deg);
+}
+
+.led-container37
+{
+	position: absolute;
+	margin-top: 125px;
+	margin-left: 22px;
+	transform: rotate(80deg);
+}
+
+.led-container38
+{
+	position: absolute;
+	margin-top: 135px;
+	margin-left: 24px;
+	transform: rotate(75deg);
+}
+
+.led-container39
+{
+	position: absolute;
+	margin-top: 145px;
+	margin-left: 26px;
+	transform: rotate(70deg);
+}
+
+.led-container40
+{
+	position: absolute;
+	margin-top: 155px;
+	margin-left: 30px;
+	transform: rotate(65deg);
+}
+
+.led-container41
+{
+	position: absolute;
+	margin-top: 163px;
+	margin-left: 34px;
+	transform: rotate(60deg);
+}
+
+.led-container42
+{
+	position: absolute;
+	margin-top: 172px;
+	margin-left: 40px;
+	transform: rotate(55deg);
+}
+
+.led-container43
+{
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 48px;
+	transform: rotate(50deg);
+}
+
+.led-container44
+{
+	position: absolute;
+	margin-top: 187px;
+	margin-left: 55px;
+	transform: rotate(45deg);
+}
+/*left top to top*/
+.led-container45
+{
+	position: absolute;
+	margin-top: 85px;
+	margin-left: 20px;
+	transform: rotate(95deg);
+}
+
+.led-container46
+{
+	position: absolute;
+	margin-top: 75px;
+	margin-left: 22px;
+	transform: rotate(100deg);
+}
+
+.led-container47
+{
+	position: absolute;
+	margin-top: 67px;
+	margin-left: 24px;
+	transform: rotate(105deg);
+}
+
+.led-container48
+{
+	position: absolute;
+	margin-top: 59px;
+	margin-left: 28px;
+	transform: rotate(110deg);
+}
+
+.led-container49
+{
+	position: absolute;
+	margin-top: 51px;
+	margin-left: 33px;
+	transform: rotate(115deg);
+}
+
+.led-container50
+{
+	position: absolute;
+	margin-top: 42px;
+	margin-left: 38px;
+	transform: rotate(120deg);
+}
+.led-container51
+{
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 108px;
+	transform: rotate(165deg);
+}
+.led-container52
+{
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 98px;
+	transform: rotate(160deg);
+}
+.led-container53
+{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 88px;
+	transform: rotate(155deg);
+}
+.led-container54
+{
+	position: absolute;
+	margin-top: 14px;
+	margin-left: 78px;
+	transform: rotate(150deg);
+}
+.led-container55
+{
+	position: absolute;
+	margin-top: 18px;
+	margin-left: 68px;
+	transform: rotate(145deg);
+}
+.led-container56
+{
+	position: absolute;
+	margin-top: 22px;
+	margin-left: 60px;
+	transform: rotate(140deg);
+}
+.led-container57
+{
+	position: absolute;
+	margin-top: 27px;
+	margin-left: 53px;
+	transform: rotate(135deg);
+}
+.led-container58
+{
+	position: absolute;
+	margin-top: 34px;
+	margin-left: 46px;
+	transform: rotate(130deg);
+}
+
+.led-container59
+{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 48px;
+	transform: rotate(125deg);
+}
+
+.led-container60
+{
+	position: absolute;
+	margin-top: 42px;
+	margin-left: 48px;
+	transform: rotate(120deg);
+}
+
+.time
+{
+	font-weight: bold;
+	font-size: 45px;
+	margin-top: 100px;
+	margin-left: 75px;
+	color: rgb(133, 255, 252);
+}
+
+.btns
+{
+	width: 150px;
+	margin-left: 101px;
+	margin-top: 30px;
+	display: flex;
+}
+
+#start-btn
+{
+	padding: 5px 6px 5px 10px;
+	cursor: pointer;
+	background: none;
+	filter: invert(100%);
+	border-radius: 100%;
+}
+
+img
+{
+	max-width: 20px;
+	max-height: 20px;
+}
+
+
+#start-btn:active
+{
+	background: green;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+#stop-btn
+{
+	padding: 5px 8px;
+	cursor: pointer;
+	background: none;
+	border-radius: 100%;
+	filter: invert(100%);
+}
+
+
+#stop-btn:active
+{
+	background: red;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+#reset-btn
+{
+	padding: 5px 7px;
+	margin-left: 20px;
+	cursor: pointer;
+	background: none;
+	/*border: 1px solid blur;*/
+	filter: invert(100%);
+	border-radius: 100%;
+}
+
+
+#reset-btn:active
+{
+	background: yellow;
+	color: #fff;
+	letter-spacing: 1px;
+}
